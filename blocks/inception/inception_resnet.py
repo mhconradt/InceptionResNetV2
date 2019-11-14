@@ -1,5 +1,4 @@
 from torch import nn
-from typing import List
 from utils.concurrent import Concurrent
 """
 Defines the base of an inception ResNet block.

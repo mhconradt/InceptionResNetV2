@@ -1,2 +1,2 @@
-from .inception_resnet import InceptionResNetBlock
-from .conv_branch import ConvolutionBranch
+from blocks.inception.inception_resnet import InceptionResNetBlock
+from utils.branch import Branch
