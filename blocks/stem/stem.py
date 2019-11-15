@@ -3,7 +3,7 @@ Defines the stem of the network
 """
 import torch
 from torch import nn
-from utils import Branch, ConvolutionConfig as Convolution
+from torchinceptionresnetv2.utils import Branch, ConvolutionConfig as Convolution
 
 IN_SIZE = 3
 
@@ -17,8 +17,8 @@ class Stem(nn.Module):
         self.second_split_left = Branch(160, Convolution(64, 1), Convolution(96, 3, 1, 'valid'))
         self.second_right = Branch(160,
                                    Convolution(64, 1),
-                                   Convolution(64, (7, 1)),
-                                   Convolution(64, (1, 7)),
+                                   Convolution(64, (7, 1), 1, 'same'),
+                                   Convolution(64, (1, 7), 1, 'same'),
                                    Convolution(96, 3, 1, 'valid')
                                    )
         self.third_left = Branch(192, Convolution(192, 3, padding='valid'))
@@ -36,3 +36,8 @@ class Stem(nn.Module):
         left = self.third_left(x)
         right = self.third_right(x)
         return torch.cat([left, right], dim=2)
+
+
+if __name__ == '__main__':
+    stem = Stem()
+    print(stem)

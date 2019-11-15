@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: torchinceptionresnetv2
+Version: 0.0.3
+Summary: PyTorch implementation of the neural network introduced by Szegedy et. al in "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning"
+Home-page: https://github.com/mhconradt/InceptionResNetV2
+Author: Maxwell Conradt
+Author-email: mhconradt@protonmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: neural networks machine learning inception resnet
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3, <4
+Description-Content-Type: text/markdown

@@ -13,7 +13,7 @@ here = path.abspath(path.dirname(__file__))
 
 setup(
     name='torchinceptionresnetv2',  # Required
-    version='0.0.1',  # Required
+    version='0.0.3',  # Required
     description='PyTorch implementation of the neural network introduced by Szegedy et. al in '
                 '"Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning"',  # Optional
     long_description_content_type='text/markdown',  # Optional (see note above)
@@ -39,7 +39,7 @@ setup(
         'Programming Language :: Python :: 3.8',
     ],
     keywords='neural networks machine learning inception resnet',  # Optional
-    packages=find_packages(),  # Required
+    packages=['blocks', 'hparams', 'utils'],  # Required
     python_requires='>=3, <4',
     install_requires=['torch'],  # Optional
 )

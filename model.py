@@ -1,9 +1,9 @@
 # declare the main model here
 from torch import nn
-from blocks.inception import InceptionA, InceptionB, InceptionC
-from blocks.reduction import ReductionA, ReductionB
-from blocks.stem import Stem
-from utils import Repeated
+from torchinceptionresnetv2.blocks.inception import InceptionA, InceptionB, InceptionC
+from torchinceptionresnetv2.blocks.reduction import ReductionA, ReductionB
+from torchinceptionresnetv2.blocks.stem import Stem
+from torchinceptionresnetv2.utils import Repeated
 
 
 class InceptionResNetV2(nn.Module):
@@ -32,3 +32,8 @@ class InceptionResNetV2(nn.Module):
         x = self.fc(x)
         x = self.softmax(x)
         return x
+
+
+if __name__ == '__main__':
+    model = InceptionResNetV2(101)
+    print(model)

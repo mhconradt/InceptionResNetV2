@@ -1,0 +1,1 @@
+Pure PyTorch implementation of Inception ResNet V2 as introduced in "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning" by Szegedy et. al

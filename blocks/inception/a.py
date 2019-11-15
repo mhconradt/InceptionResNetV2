@@ -1,7 +1,7 @@
 from torch import nn
-from .inception_resnet import InceptionResNetBlock
-from utils.branch import Branch
-from utils import ConvolutionConfig as Convolution
+from torchinceptionresnetv2.blocks.inception.inception_resnet import InceptionResNetBlock
+from torchinceptionresnetv2.utils.branch import Branch
+from torchinceptionresnetv2.utils import ConvolutionConfig as Convolution
 
 """
 Responsible for implementing inception block A
@@ -27,3 +27,9 @@ class InceptionA(InceptionResNetBlock):
                       )
         combine = nn.Conv2d(128, out_channels=IN_CHANNELS, kernel_size=1, bias=True)
         super().__init__(SCALE, combine, left, middle, right)
+
+
+if __name__ == '__main__':
+    block = InceptionA()
+    print(block)
+

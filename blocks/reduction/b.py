@@ -2,9 +2,9 @@
 Responsible for implementing reduction block B
 """
 from torch import nn
-from utils import ConvolutionConfig as Convolution
-from utils.branch import Branch
-from .reduction_block import ReductionBlock
+from torchinceptionresnetv2.utils import ConvolutionConfig as Convolution
+from torchinceptionresnetv2.blocks.reduction.reduction_block import ReductionBlock
+from torchinceptionresnetv2.utils.branch import Branch
 
 IN_CHANNELS = 896
 
@@ -16,3 +16,8 @@ class ReductionB(ReductionBlock):
         three = Branch(IN_CHANNELS, Convolution(256, 1), Convolution(288, 3, 2, 'valid'))
         four = Branch(IN_CHANNELS, Convolution(256, 1), Convolution(288, 3), Convolution(320, 3, 2, 'valid'))
         super().__init__(one, two, three, four)
+
+
+if __name__ == '__main__':
+    reduction = ReductionB()
+    print(reduction)

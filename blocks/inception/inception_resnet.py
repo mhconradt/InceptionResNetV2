@@ -1,5 +1,5 @@
 from torch import nn
-from utils.concurrent import Concurrent
+from torchinceptionresnetv2.utils.concurrent import Concurrent
 """
 Defines the base of an inception ResNet block.
 """
@@ -11,8 +11,8 @@ class InceptionResNetBlock(nn.Module):
         self.scale = scale
         self.combination = combination
         self.branches = Concurrent()
-        for branch in branches:
-            self.branches.append(branch)
+        for i, branch in enumerate(branches):
+            self.branches.add_module("branch_{}".format(i), branch)
         self.activation = nn.ReLU(inplace=True)
 
     def forward(self, x):

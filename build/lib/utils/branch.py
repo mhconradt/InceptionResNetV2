@@ -28,7 +28,7 @@ class ConvolutionBranchNode(nn.Module):
 class Branch(nn.Sequential):
     def __init__(self, input_size, *args: ConvolutionConfig):
         super().__init__()
-        build_nodes = parallel_shifted_map(Branch.node_from_convolution, ConvolutionConfig(input_size, None))
+        build_nodes = parallel_shifted_map(Branch.node_from_convolution, tuple(input_size))
         self.branches = nn.Sequential(*build_nodes(args))
 
     def forward(self, x):
@@ -37,8 +37,3 @@ class Branch(nn.Sequential):
     @staticmethod
     def node_from_convolution(conv, prev_conv):
         return ConvolutionBranchNode(prev_conv[0], conv)
-
-
-if __name__ == '__main__':
-    branch = (32, ConvolutionConfig(32, 3, 2, 'valid'), ConvolutionConfig(32, 3, 1, 'valid'), ConvolutionConfig(64, 3))
-    print(branch)
