@@ -4,7 +4,7 @@ Responsible for implementing reduction block B
 from torch import nn
 from utils import ConvolutionConfig as Convolution
 from utils.branch import Branch
-from blocks.reduction import ReductionBlock
+from .reduction_block import ReductionBlock
 
 IN_CHANNELS = 896
 

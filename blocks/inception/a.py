@@ -1,5 +1,5 @@
 from torch import nn
-from blocks import InceptionResNetBlock
+from .inception_resnet import InceptionResNetBlock
 from utils.branch import Branch
 from utils import ConvolutionConfig as Convolution
 

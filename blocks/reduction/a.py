@@ -4,7 +4,7 @@ Responsible for implementing reduction block A
 from torch import nn
 from utils import ConvolutionConfig as Convolution
 from hparams import K, L, M, N
-from blocks.reduction import ReductionBlock
+from .reduction_block import ReductionBlock
 from utils.branch import Branch
 
 INPUT_SIZE = 384
