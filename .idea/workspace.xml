@@ -11,19 +11,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/utils/branch.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/blocks/inception/a.py">
+        <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/blocks/inception/a.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
@@ -35,19 +23,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/utils/concurrent.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/utils/convolution_config.py">
+        <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/utils/convolution_config.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="121" selection-start-line="3" selection-start-column="121" selection-end-line="3" selection-end-column="121" />
@@ -56,7 +32,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/utils/repeated.py">
+        <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/utils/repeated.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
@@ -65,7 +41,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/hparams/params.py">
+        <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/hparams/params.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
@@ -74,7 +50,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/utils/functions.py">
+        <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/utils/functions.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
@@ -83,7 +59,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/blocks/stem/stem.py">
+        <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/blocks/stem/stem.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
               <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
@@ -94,11 +70,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/setup.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state relative-caret-position="165">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <element signature="e#30#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
               <folding>
                 <element signature="e#203#246#0" expanded="true" />
               </folding>
@@ -107,7 +104,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/blocks/inception/__init__.py">
+        <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/blocks/inception/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
@@ -171,6 +168,7 @@
         <option value="$PROJECT_DIR$/utils/repeated.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/../InceptionResNetV2/setup.py" />
+        <option value="$PROJECT_DIR$/../torchinceptionresnetv2/__init__.py" />
       </list>
     </option>
   </component>
@@ -191,7 +189,7 @@
           <expand>
             <path>
               <item name="inception_resnetv2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InceptionResNetV2" type="462c0819:PsiDirectoryNode" />
+              <item name="torchinceptionresnetv2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -268,18 +266,17 @@
       <workItem from="1573653703296" duration="3877000" />
       <workItem from="1573691731928" duration="4767000" />
       <workItem from="1573739365880" duration="4435000" />
-      <workItem from="1573773348242" duration="2780000" />
+      <workItem from="1573773348242" duration="3226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15859000" />
+    <option name="totallyTimeSpent" value="16305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2722833" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2722833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -293,7 +290,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3132653" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3132653" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.22755101" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -332,7 +329,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/blocks.py" />
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/blocks/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/blocks/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
@@ -342,14 +339,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/hparams/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/hparams/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/blocks/reduction/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/blocks/reduction/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
@@ -361,7 +358,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hparams/branch.py" />
     <entry file="file://$PROJECT_DIR$/blocks/conv_branch.py" />
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/utils/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/utils/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
@@ -371,14 +368,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/blocks/stem/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/blocks/stem/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/blocks/inception/inception_resnet.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/blocks/inception/inception_resnet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
@@ -388,7 +385,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/blocks/inception/c.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/blocks/inception/c.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
@@ -398,7 +395,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/blocks/inception/b.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/blocks/inception/b.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
@@ -408,7 +405,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/blocks/reduction/a.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/blocks/reduction/a.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
@@ -418,7 +415,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/blocks/reduction/b.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/blocks/reduction/b.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
@@ -428,7 +425,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/blocks/reduction/reduction_block.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/blocks/reduction/reduction_block.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
@@ -438,17 +435,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="e#30#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/utils/branch.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/utils/branch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
@@ -458,7 +445,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/utils/concurrent.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/utils/concurrent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
@@ -468,35 +455,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/utils/convolution_config.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/utils/convolution_config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="121" selection-start-line="3" selection-start-column="121" selection-end-line="3" selection-end-column="121" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/utils/functions.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/utils/functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/utils/repeated.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/utils/repeated.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/hparams/params.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/hparams/params.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/blocks/stem/stem.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/blocks/stem/stem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
@@ -506,7 +493,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/blocks/inception/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/blocks/inception/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
@@ -516,7 +503,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/blocks/inception/a.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/blocks/inception/a.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
@@ -526,13 +513,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../InceptionResNetV2/setup.py">
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="195">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding>
             <element signature="e#203#246#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#30#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../torchinceptionresnetv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
         </state>
       </provider>
     </entry>
