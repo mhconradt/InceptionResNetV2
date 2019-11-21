@@ -13,7 +13,7 @@ here = path.abspath(path.dirname(__file__))
 
 setup(
     name='torch_inception_resnet_v2',  # Required
-    version='0.0.24',  # Required
+    version='0.0.30',  # Required
     description='PyTorch implementation of the neural network introduced by Szegedy et. al in '
                 '"Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning"',  # Optional
     long_description_content_type='text/markdown',  # Optional (see note above)

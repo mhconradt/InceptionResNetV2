@@ -16,8 +16,8 @@ class InceptionResNetBlock(nn.Module):
         self.activation = nn.ReLU(inplace=True)
 
     def forward(self, x):
-        output = self.branches(x)
-        output = self.combination(output)
-        output = self.scale * output + x
-        return self.activation(output)
+        branch_outputs = self.branches(x)
+        output = self.combination(branch_outputs)
+        res = self.scale * output + x
+        return self.activation(res)
 

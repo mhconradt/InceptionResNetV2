@@ -12,7 +12,7 @@ class Concurrent(nn.Sequential):
         self.stack = stack
 
     def forward(self, x):
-        x = [module(x) for module in self._modules.values()]
+        outputs = [module(x) for module in self._modules.values()]
         if self.stack:
-            return torch.stack(x, dim=self.axis)
-        return torch.cat(x, dim=self.axis)
+            return torch.stack(outputs, dim=self.axis)
+        return torch.cat(outputs, dim=self.axis)

@@ -7,6 +7,12 @@ from torch_inception_resnet_v2.utils import Branch, ConvolutionConfig as Convolu
 
 IN_SIZE = 3
 
+# a = (a + 2b) - c / d + 1
+# d * a = (a + 2b) - c
+# d * a + c  = a + 2b
+# d * a + c - a = 2b
+# ((d * a + c) - a) / 2
+
 
 class Stem(nn.Module):
     def __init__(self):

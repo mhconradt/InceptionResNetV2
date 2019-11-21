@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: torch-inception-resnet-v2
-Version: 0.0.23
+Version: 0.0.30
 Summary: PyTorch implementation of the neural network introduced by Szegedy et. al in "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning"
 Home-page: https://github.com/mhconradt/InceptionResNetV2
 Author: Maxwell Conradt
