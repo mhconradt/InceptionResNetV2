@@ -9,7 +9,7 @@ from torch_inception_resnet_v2.utils import ConvolutionConfig as Convolution
 
 IN_CHANNELS = 896
 # todo find hyper-parameter SCALE
-SCALE = 0.17
+SCALE = 0.10
 
 
 class InceptionB(InceptionResNetBlock):

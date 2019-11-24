@@ -15,9 +15,9 @@ class ConvolutionBranchNode(nn.Module):
         out_filters, kernel_size, stride, padding = config
         # forward, activation scaling and ReLU
         # need to know the input shape
-        self.convolution = nn.Conv2d(in_filters, out_filters, kernel_size, stride, padding=padding)
-        self.bn = nn.BatchNorm2d(num_features=out_filters, eps=EPSILON, momentum=BATCH_NORM_MOMENTUM)
-        self.activation = nn.ReLU(inplace=True)
+        self.convolution = nn.Conv2d(in_filters, out_filters, kernel_size, stride, padding=padding, bias=False)
+        self.bn = nn.BatchNorm2d(num_features=out_filters, eps=EPSILON, momentum=BATCH_NORM_MOMENTUM, affine=True)
+        self.activation = nn.ReLU(inplace=False)
 
     def forward(self, x):
         x = self.convolution(x)

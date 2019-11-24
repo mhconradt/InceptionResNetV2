@@ -9,7 +9,7 @@ from torch_inception_resnet_v2.utils import ConvolutionConfig as Convolution, Pa
 
 
 IN_CHANNELS = 1888
-SCALE = 0.17
+SCALE = 0.20
 
 
 class InceptionC(InceptionResNetBlock):
