@@ -12,12 +12,12 @@ class InceptionResNetBlock(nn.Module):
         self.combination = combination
         self.branches = Concurrent()
         for i, branch in enumerate(branches):
-            self.branches.add_module("branch_{}".format(i), branch)
+            self.branches.append("branch_{}".format(i), branch)
         self.activation = nn.ReLU(inplace=True)
 
     def forward(self, x):
-        branch_outputs = self.branches(x)
-        output = self.combination(branch_outputs)
-        res = self.scale * output + x
-        return self.activation(res)
+        output = self.branches(x)
+        output = self.combination(output)
+        output = self.scale * output + x
+        return self.activation(output)
 

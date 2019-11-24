@@ -10,7 +10,7 @@ class ReductionBlock(nn.Module):
         super().__init__()
         self.branches = Concurrent()
         for i, branch in enumerate(branches):
-            self.branches.add_module("branch_{}".format(i), branch)
+            self.branches.append("branch_{}".format(i), branch)
 
     def forward(self, x):
         return self.branches(x)

@@ -20,11 +20,11 @@ class ConvolutionBranchNode(nn.Module):
         self.activation = nn.ReLU(inplace=True)
 
     def forward(self, x):
-        z = self.convolution(x)
-        normalized = self.bn(z)
+        x = self.convolution(x)
+        x = self.bn(x)
         # apply normalization before activation because that captures the true distribution of activations
         # the mean and standard deviation would be decreased otherwise
-        return self.activation(normalized)
+        return self.activation(x)
 
 
 class Branch(nn.Sequential):
